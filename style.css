@@ -4,6 +4,23 @@
     box-sizing: border-box;
 }
 
-body {
-    /* background-color: aquamarine; */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 240px;
+    gap: 5px;
+    margin: 5px 0;
+    /* border: 2px solid red; */
+}
+
+button {
+    /* display: block; */
+    width: 55px;
+    height: 35px;
+}
+
+.display {
+    width: 240px;
+    height: 60px;
+    padding: 10px;
 }
